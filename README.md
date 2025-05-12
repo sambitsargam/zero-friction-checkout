@@ -1,4 +1,4 @@
-# @startale/zero-friction-checkout
+# startale-checkout
 
 **Zero-Friction Checkout** provides instant social-login onboarding, gasless transactions, and persistent sessions on Soneium Mainnet, powered by Startale's Account Abstraction Toolkit.
 
@@ -14,7 +14,7 @@
 ## 📦 Installation
 
 ```bash
-npm install @startale/zero-friction-checkout
+npm install startale-checkout
 ```
 
 ## 🔧 Usage
@@ -23,7 +23,7 @@ Wrap your app with the `SessionProvider`:
 
 ```tsx
 import React from 'react';
-import { SessionProvider, ZeroFrictionCheckoutButton } from '@startale/zero-friction-checkout';
+import { SessionProvider, ZeroFrictionCheckoutButton } from 'startale-checkout';
 
 const App = () => (
   <SessionProvider>
@@ -42,7 +42,7 @@ export default App;
 Provides React context to manage session tokens.
 
 ```tsx
-import { SessionProvider } from '@startale/zero-friction-checkout';
+import { SessionProvider } from 'startale-checkout';
 
 <SessionProvider>{/* your app */}</SessionProvider>
 ```
